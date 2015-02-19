@@ -47,7 +47,7 @@ Galaxy makes it easy to transfer files directly from one location on the web to 
 
 3. Paste the following link into the text box: 
 
-    https://github.com/emarinier/PUBS2015/blob/master/data/reads/Ecoli_O104H4_pESBL.fastq
+    https://github.com/emarinier/PUBS2015/raw/master/data/reads/Ecoli_O104H4_pESBL.fastq
 
     ![](images/fetch_box.png)
     
