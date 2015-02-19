@@ -6,13 +6,9 @@ The information presented in this workshop is accurate as of 19 February 2015 an
 Introduction
 ------------
 
-------------
-
-This section of the workshop assumes the reader has completed [Section 1](Section1.md). The purpose of this section is to illustrate the creation and execution of reproducible workflows. We will create a workflow for the simple sequence annotation pipeline used in the first section of this workshop.
+This section of the workshop assumes the reader has completed [Section 1](../Section1/Section1.md). The purpose of this section is to illustrate the creation and execution of reproducible workflows. We will create a workflow for the simple sequence annotation pipeline used in the first section of this workshop.
 
 Step 1: Navigate to ORIONE Workflows
-------------------------------------
-
 ------------------------------------
 
 ### Description ###
@@ -26,8 +22,6 @@ Galaxy provides a platform for assembling [workflows](http://en.wikipedia.org/wi
 3. Click **Workflow** near the top of the webpage.
 
 Step 2: Create a New Workflow
------------------------------
-
 -----------------------------
 
 ### Description ###
@@ -55,8 +49,6 @@ We will create a workflow for the sequence annotation task accomplished in the f
     ![](images/workflow_canvas.png)
 
 Step 3: Construct Workflow
---------------------------
-
 --------------------------
 
 ### Description ###
@@ -172,8 +164,6 @@ When you've completed, the workflow should look something like the following:
 Step 3: Running the Workflow
 -----------------------------
 
------------------------------
-
 ### Description ###
 
 With construction complete, we can easily run our sequence annotation workflow. In order to verify the workflow was assembled correctly, we will ensure that the workflow produces the same output as Section 1 when using the same *E. coli* reads.
@@ -184,7 +174,7 @@ With construction complete, we can easily run our sequence annotation workflow. 
 
 2. Click **Sequence Annotation** &rarr; **Run**.
 
-3. Change the **Input Dataset** parameter to previously uploaded *[E. coli](http://github.com/emarinier/pubs2015/UPDATE_LINK.fastq)* FASTQ reads. These reads should be available in the history from Section 1. Otherwise, you may need to upload the [reads](http://github.com/emarinier/pubs2015/UPDATE_LINK.fastq) again.
+3. Change the **Input Dataset** parameter to previously uploaded *[E. coli](../data/reads/Ecoli_O104H4_pESBL.fastq)* FASTQ reads. These reads should be available in the history from Section 1. Otherwise, you may need to upload the [reads](../data/reads/Ecoli_O104H4_pESBL.fastq) again.
 
     ![](images/workflow_input.png)
     
@@ -238,8 +228,6 @@ The workflow may take several minutes to complete. You may view workflow tasks a
                          GSVRARKILAENFPRGSATSLIEHRAGQHNSDNVIEELASELIRKQGYNL"
 
 Exercises
----------
-
 ---------
 
 There are several exercises for this section. The exercises may be found found [here](Exercises.md). 

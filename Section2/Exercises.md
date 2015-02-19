@@ -1,15 +1,13 @@
 Exercises
 ---------
 
----------
-
 These exercises assume the reader has completed [Section 2](Section2.md) of the workshop.
 
 ### Exercise 1: C. botulinum Plasmid Annotation ###
 
 1. Execute the sequence annotation workflow on the C. botulinum plasmid data:
 
-    http://github.com/emarinier/pubs2015/data/reads/Cbotulinum_A_pBOT3502.fastq
+    https://github.com/emarinier/PUBS2015/blob/master/data/reads/Cbotulinum_A_pBOT3502.fastq
 
 2. If the workflow does not complete correctly, what is the source of the problem?
     
@@ -19,7 +17,7 @@ These exercises assume the reader has completed [Section 2](Section2.md) of the 
 
 1. Execute the sequence annotation workflow on the R. sphaeroides chromosomal data:
 
-    http://github.com/emarinier/pubs2015/data/reads/Rsphaeroides.fastq
+    https://github.com/emarinier/PUBS2015/blob/master/data/reads/Rsphaeroides.fastq
 
 2. If the workflow does not complete correctly, what is the source of the problem?
     
@@ -29,7 +27,7 @@ These exercises assume the reader has completed [Section 2](Section2.md) of the 
 
 1. Execute the sequence annotation workflow on the unknown sequence data:
 
-    http://github.com/emarinier/pubs2015/data/reads/unknown.fastq
+    https://github.com/emarinier/PUBS2015/blob/master/data/reads/unknown.fastq
 
 2. If the workflow does not complete correctly, what is the source of the problem?
     

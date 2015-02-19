@@ -6,13 +6,9 @@ The information presented in this workshop is accurate as of 19 February 2015 an
 Introduction
 ------------
 
-------------
-
 The purpose of this workshop is to highlight benefits of creating reproducible workflows. We will accomplish this using the Galaxy environment. Galaxy is an open-source, web-based platform for biomedical research. This section of the workshop will walk through a simple sequence annotation pipeline using a public instance of Galaxy.
 
 Step 1: Navigate to ORIONE
---------------------------
-
 --------------------------
 
 ![](images/orione.png)
@@ -28,8 +24,6 @@ We will use a public Galaxy instance hosted by CRS4 ([ORIONE](https://orione.crs
 3. Ensure you are logged into ORIONE by clicking **User**. The drop-down menu should display your username.
 
 Step 2: Upload Data
--------------------
-
 -------------------
 
 ### Description ###
@@ -53,7 +47,7 @@ Galaxy makes it easy to transfer files directly from one location on the web to 
 
 3. Paste the following link into the text box: 
 
-    http://github.com/emarinier/pubs2015/data/reads/Ecoli_O104H4_pESBL.fastq
+    https://github.com/emarinier/PUBS2015/blob/master/data/reads/Ecoli_O104H4_pESBL.fastq
 
     ![](images/fetch_box.png)
     
@@ -94,8 +88,6 @@ If the file that you want to work with isn't available on the web, or on NCBI (i
 Step 3: Quality Report
 ----------------------
 
-----------------------
-
 ### Description ###
 
 Understanding the quality of sequencing reads used in an experiment is important because low-quality reads can have negative or unexpected consequences on the outcome of your workflow. We will assess the quality of our *E. coli* reads using [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/), a quality control tool for sequencing data.
@@ -133,8 +125,6 @@ FastQC will provide several reports indicating the quality of the sequencing rea
 Step 4: Sequence Assembly
 -------------------------
 
--------------------------
-
 ### Description ###
 
 Sequence assembly is the process of constructing larger sequences from smaller fragments. We need to assemble our short reads into longer, contiguous sequences before doing sequence annotation. We will use [ABySS](https://github.com/bcgsc/abyss) to assemble our reads.
@@ -162,8 +152,6 @@ Sequence assembly is the process of constructing larger sequences from smaller f
     ![](images/abyss_history.png)
 
 Step 5: Data Manipulation
--------------------------
-
 -------------------------
 
 ### Description ###
@@ -219,8 +207,6 @@ The **contigs** file contains all contigs with lengths greater than or equal to 
 The select first operation leaves us with a single contig with length greater than or equal to 10,000. The contig is viewable by clicking the **View data** button next to the item in your **History**.
 
 Step 6: Sequence Annotation
----------------------------
-
 ---------------------------
 
 ### Description ###
