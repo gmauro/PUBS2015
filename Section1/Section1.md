@@ -264,3 +264,7 @@ There should be several Prokka items added to your history. It may take several 
                          MPEGPAPDGSGVPVLGVFRVKSGTLARILKFTVGPLELWALNSSPKDSALRKTLTNKL
                          GSVRARKILAENFPRGSATSLIEHRAGQHNSDNVIEELASELIRKQGYNL"
 
+Section 2
+---------
+
+This sequence annotation process is developed into a workflow in [Section 2](../Section2/Section2.md). 
