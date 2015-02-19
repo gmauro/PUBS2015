@@ -65,7 +65,7 @@ Galaxy makes it easy to transfer files directly from one location on the web to 
 
 If the file that you want to work with isn't available on the web, or on NCBI (it's hot off the sequencer), then you'll need to manually upload the file from your computer. This is generally going to be slower than having Galaxy download the file for you.
 
-1. Download the [Ecoli_O104H4_pESBL.fastq](Ecoli_O104H4_pESBL.fastq) file directly to your computer.
+1. Download the [Ecoli_O104H4_pESBL.fastq](../data/reads/Ecoli_O104H4_pESBL.fastq) file directly to your computer.
 
 2. Select **Common Tools** &rarr; **Get Data** &rarr; **Upload File** to open the upload window.
 
